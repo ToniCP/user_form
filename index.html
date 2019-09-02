@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> User Form </title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="public/stylesheets/application.css" type="text/css" media="screen">
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <p class="first-name">First name: <input class="format-input" type="text" id="js-first-name"></p>
+      <p class="last-name">Last name: <input class="format-input" type="text" id="js-last-name"></p>
+      <p class="job">Job: <input class="format-input" type="text" id="js-job-user"></p>
+      <p class="email">E-Mail: <input class="format-input" type="text" id="js-email-user"></p>
+      <p class="phone">Phone: <input class="format-input" type="text" id="js-phone-user"></p>
+      <p class="picture">Picture: <input class="format-input" type="text" id="js-picture-user"></p>
+      <div class="buttons">
+        <a id="js-new-user" onclick="newUser()">Create user</a>
+        <a id="js-edit-user" onclick="newUser()">Update user</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/new_user.js"></script>
+</body>
+</html>

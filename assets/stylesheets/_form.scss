@@ -1,0 +1,77 @@
+.form {
+  margin: 15px 30px;
+  margin-top: 30px;
+  color: #1ab188;
+  font-size: 20px;
+
+  @media screen and (min-width: 376px) {
+    margin-top: 15px;
+    font-size: 55px;
+
+    p {
+      margin: 0;
+    }
+
+    .job {
+      input {
+        margin-left: 169px;
+      }
+    }
+
+    .email {
+      input {
+        margin-left: 102px;
+      }
+    }
+
+    .phone {
+      input {
+        margin-left: 97px;
+      }
+    }
+
+    .picture {
+      input {
+        margin-left: 87px;
+      }
+    }
+  }
+
+  .format-input {
+    font-size: 20px;
+    background-color: inherit;
+    border: 1px solid #a0b3b0;
+    border-radius: 10px;
+    color: #1ab188;
+    padding: 5px 10px;
+    height: 30px;
+    width: 293px;
+
+    @media screen and (min-width: 376px) {
+      margin-bottom: 15px;
+      font-size: 55px;
+      height: 60px;
+      width: 811px;
+    }
+  }
+
+  .buttons {
+    margin-top: 40px;
+
+    @media screen and (min-width: 376px) {
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      border: 1px solid #a0b3b0;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 0 9px;
+
+      @media screen and (min-width: 376px) {
+        padding: 20px 300px;
+      }
+    }
+  }
+}

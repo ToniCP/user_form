@@ -1,0 +1,58 @@
+.view-format {
+  @media screen and (min-width: 376px) {
+    .buttons {
+      text-align: center;
+      font-size: 48px;
+    }
+  }
+
+  img {
+    float: left;
+    width: 150px;
+    height: 210px;
+
+    @media screen and (min-width: 376px) {
+      width: 380px;
+      height: 470px;
+    }
+  }
+
+  .information-user {
+    margin-bottom: 20px;
+    margin-left: 158px;
+
+    @media screen and (min-width: 376px) {
+      margin-bottom: 55px;
+      margin-left: 400px;
+    }
+
+    p {
+      color: #1ab188;
+      font-size: 20px;
+      margin: 0;
+      margin-top: 10px;
+
+      @media screen and (min-width: 376px) {
+        font-size: 48px;
+      }
+
+      .tag-format {
+        color: red;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    border: 1px solid #a0b3b0;
+    color: #1ab188;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 41px;
+
+    @media screen and (min-width: 376px) {
+      padding: 20px 152px;
+    }
+  }
+}
